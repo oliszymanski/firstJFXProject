@@ -38,6 +38,7 @@ public class sceneSet extends Application {
 	MAIN:
 	=================================================================================
 	*/
+
 		st0.setWidth(win_width);
 		st0.setHeight(win_height);
 		st0.setTitle("My stage");
