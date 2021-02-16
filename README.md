@@ -1,2 +1,20 @@
-# firstJFXProject
-first JavaFx project... just to get me started :))
+# first JFX Projects
+this is how my warmup with Java and JavaFX started...
+
+## Main.java
+Main program must always be in every folder because programmer must know where should the program start running
+
+<br>
+
+## Controller.java
+Is a class of which object is created by FXML file and used to init UI styles such as text style, or some object color. 
+It is very similar to the HTML language:
+
+```html
+<head>
+   <title>My website</title> 
+</head>
+```
+
+
+Except that here, we have an **FXML** code file with all the UI as said earlier.
