@@ -8,22 +8,25 @@ program start running. Usually, the controller.java program looks like this:
 ```java
 package sample;
 
-public class Controller {
+public class programName {
 }
-
 ```
 
 <br>
 
 ## Controller.java
 Is a class of which object is created by FXML file and used to init UI styles such as text
-style, or some object color. It is very similar to the HTML language:
+style, or some object color. It is very similar to the HTML language,
 
-```html
-<head>
-   <title>My website</title> 
-</head>
+```java
+package sample;
+
+public class Controller{
+}
+
 ```
 
+Function of Controller.java is processing the incoming requests, like updates the model.
 
-Except that here, we have an **FXML** code file with all the UI as said earlier.
+
+
