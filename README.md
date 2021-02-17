@@ -1,5 +1,6 @@
 # first JFX Projects
-this is how my warmup with Java and JavaFX started...
+My JavaFX beginning projects or my journey through programming in Java and learning
+the JavaFX library for GUI
 
 ## Main.java
 Main program must always be in every folder because programmer must know where should the
