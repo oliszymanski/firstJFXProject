@@ -42,8 +42,8 @@ public class nodeBasics extends Application {
 
 		Pane pane = new Pane();		//creating a pane
 
-		Circle c0 = new Circle(50, Color.BLUE);
-		Rectangle r0 = new Rectangle(100, 100, Color.RED);
+		Circle c0 = new Circle(25, Color.BLUE);
+		Rectangle r0 = new Rectangle(300, 100, Color.RED);
 
 
 
