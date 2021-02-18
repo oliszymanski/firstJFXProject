@@ -36,6 +36,9 @@ public class Main extends Application {
         stage2.show();*/
     }
 
+
+    //TODO: clean the whole code and commit...
+
     @Override
     public void init() throws Exception{
         System.out.println("AppState> Opened");
