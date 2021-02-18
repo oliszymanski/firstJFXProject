@@ -73,5 +73,10 @@ Rectangle r0 = new Rectange(100, 100, color.RED);     //rectangle node (double w
 ```
 
 
+Remember that for defining the size of something: object, method (really everything), you define
+it in **pixels** (px). Colors, you define by **hex**. Both of those are used when programming
+in CSS and/or HTML.
 
 
+
+<br>
