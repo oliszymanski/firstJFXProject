@@ -47,7 +47,6 @@ public class javaCSSStyling extends Application {
 
 
 
-
 		/*
 		=================================================================================
 			MAIN:
