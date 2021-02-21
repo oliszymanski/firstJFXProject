@@ -26,8 +26,8 @@ public class javaCSSStyling extends Application {
 
 	int win_width = 600, win_height = 550;		// main window (stage) parameters (window width and window height)
 
-	String styles = "-fx-background-color: #0000ff;" + "-fx-border-color: #ff0000;" ;
-
+	String styles_01 = "-fx-background-color: #0000ff;" + "-fx-border-color: #ff0000;" ;
+	String styles_02 = "-fx-background-color: #7f7f7f;" + "border-color: #;";
 
 
 	@Override
@@ -40,8 +40,10 @@ public class javaCSSStyling extends Application {
 		*/
 
 		Label label = new Label("some sentence");
-		Button btn = new Button("Click on me");
-		Scene scene = new Scene(btn);
+		Button btn1 = new Button("Click on me");
+		Button btn2 = new Button("Click on me now!");
+		Scene scene = new Scene(btn1);
+		Scene s2 = new Scene(btn2);
 
 
 
@@ -52,9 +54,10 @@ public class javaCSSStyling extends Application {
 		=================================================================================
 		*/
 
-		btn.setStyle(styles);
+		btn1.setStyle(styles_01);
+		btn2.setStyle(styles_02);
 
-		stage.setScene(scene);
+		stage.setScene(s2);
 
 		stage.show();
 
