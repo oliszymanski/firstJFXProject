@@ -34,7 +34,7 @@ Function of Controller.java is processing the incoming requests, like updates th
 
 
 
-##nodeBasics.java
+## nodeBasics.java
 Shows how to use panes in JFX. In general, panes are containers which are used mainly for
 flexible (and dynamic) interaction of the UI controls inside the scene. The best thing about
 panes, is that when the window is resized, the panes are also automatically resizes the nodes
@@ -42,20 +42,20 @@ that it contains. Some example nodes are:
 
 1. we need to import the pane
 ```java
-import javafx.scene.layout.Pane;
+    import javafx.scene.layout.Pane;
 ```
 
 
 2. import colors lib (optional):
 ```java
-import javafx.scene.paint.Color;        //importing color to fill
+    import javafx.scene.paint.Color;        //importing color to fill
 ```
 
 
 3. import some shapes that we want to use:
 ```java
-import javafx.scene.shape.Circle;       //importing shapes
-import javafx.scene.shape.Rectangle;
+    import javafx.scene.shape.Circle;       //importing shapes
+    import javafx.scene.shape.Rectangle;
 ```
 
 
@@ -68,8 +68,8 @@ it) and color. I'm to specify the radius for 50 (in px) and fill it with Blue co
 for the rectangle, I'm going to set the width of 100 and height to 100. Fill in red color:
 
 ```java
-Circle c0 = new Circle(50, color.BLUE);             //circle node (double size, color)
-Rectangle r0 = new Rectange(100, 100, color.RED);     //rectangle node (double width, double height, color)
+    Circle c0 = new Circle(50, color.BLUE);               //circle node (double size, color)
+    Rectangle r0 = new Rectange(100, 100, color.RED);     //rectangle node (double width, double height, color)
 ```
 
 
@@ -80,3 +80,8 @@ in CSS and/or HTML.
 
 
 <br>
+
+
+## javaCSSStyling.java
+Shows how we can use **CSS** styling in JavaFX. In this java class, there is an example of decorating a circle
+(the same thing is shown in **nodeBasics.java** class). When implementing a CSS style to 
