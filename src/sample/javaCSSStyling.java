@@ -33,6 +33,8 @@ public class javaCSSStyling extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 
+
+
 		/*
 		=================================================================================
 			OBJECTS:
@@ -62,6 +64,12 @@ public class javaCSSStyling extends Application {
 
 	}
 
+
+		/*
+		=================================================================================
+			RUN APPLICATION:
+		=================================================================================
+		*/
 
 	@Override
 	public void init() throws Exception {
