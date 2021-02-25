@@ -46,6 +46,11 @@ public class hyperLink extends Application {
 	=================================================================================
 	*/
 
+		link.setOnAction(event -> {
+			System.out.println("The link button was clicked");
+		});
+
+
 		stage.setTitle("JavaFX hyperlink stage");		//stage title
 
 		stage.setWidth(win_width);		//stage width and height
