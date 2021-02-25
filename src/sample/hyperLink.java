@@ -52,6 +52,8 @@ public class hyperLink extends Application {
 		stage.setHeight(win_height);
 
 		stage.setScene(s0);				//stage scene
+
+		stage.show();
 	}
 
 
