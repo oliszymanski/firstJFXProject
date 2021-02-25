@@ -7,7 +7,9 @@ package sample;
 =================================================================================
 */
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.scene.control.Hyperlink;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 
@@ -25,11 +27,31 @@ public class hyperLink extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 
-		stage.setTitle("JavaFX hyperlink");
 
-		Hyperlink link = new Hyperlink("this is a link");//defining hyperlink
+	/*
+	=================================================================================
+		OBJECTS:
+	=================================================================================
+	*/
+
+		Hyperlink link = new Hyperlink("some link");	//defining hyperlink
+		VBox vb = new VBox(link);
+		Scene s0 = new Scene(vb);
 
 
+
+	/*
+	=================================================================================
+		MAIN:
+	=================================================================================
+	*/
+
+		stage.setTitle("JavaFX hyperlink stage");		//stage title
+
+		stage.setWidth(win_width);		//stage width and height
+		stage.setHeight(win_height);
+
+		stage.setScene(s0);				//stage scene
 	}
 
 
@@ -50,6 +72,7 @@ public class hyperLink extends Application {
 	public void stop() throws Exception {
 		System.out.println("Application closed");
 	}
+
 
 
 	public static void main(String[] args) {
