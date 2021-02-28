@@ -84,4 +84,9 @@ in CSS and/or HTML.
 
 ## javaCSSStyling.java
 Shows how we can use **CSS** styling in JavaFX. In this java class, there is an example of decorating a circle
-(the same thing is shown in **nodeBasics.java** class). When implementing a CSS style to 
+(the same thing is shown in **nodeBasics.java** class). When implementing a CSS style to some object, we first need
+to implement the CSS code into a string:
+
+```java
+String styles = "border-radius: 2px #202020;" + "background-color: #F0F0F0";
+```
