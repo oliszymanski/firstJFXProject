@@ -90,3 +90,5 @@ to implement the CSS code into a string:
 ```java
 String styles = "border-radius: 2px #202020;" + "background-color: #F0F0F0";
 ```
+
+To understand this, you need to have some bit of knowledge of CSS
