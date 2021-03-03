@@ -23,7 +23,8 @@ import javafx.stage.Stage;
 public class button extends Application {
 
 	int win_width = 600, win_height = 550;		// main window (stage) parameters (window width and window height)
-
+	int btn_width = 50, btn_height = 25;	//button parameters
+	String btn_style = "-fx-border-color: #ff0000; -fx-border-width: 5px;";		//button styling
 
 	@Override
 	public void start(Stage stage) throws Exception {
@@ -37,7 +38,8 @@ public class button extends Application {
 	*/
 
 		Button btn = new Button("Click me");	//creating a button
-		Scene sc = new Scene(btn);			//creating a scene
+		Button btn1 = new Button("Click me too!");
+		Scene sc = new Scene(btn, btn_width, btn_height);			//creating a scene
 
 
 	/*
@@ -46,11 +48,15 @@ public class button extends Application {
 	=================================================================================
 	*/
 
-		stage.setTitle("new");			//setting upi the main
+		btn.setMaxSize(btn_width, btn_height);
+		btn1.setStyle(btn_style);
+
+		stage.setTitle("new some window");			//setting upi the main
 		stage.setMaxWidth(win_width);
 		stage.setMaxHeight(win_height);
+
 		stage.setScene(sc);
-		stage.show();
+		stage.show();			//displaying the whole stage
 
 	}
 
