@@ -24,6 +24,7 @@ public class button extends Application {
 
 	int win_width = 600, win_height = 550;		// main window (stage) parameters (window width and window height)
 
+
 	@Override
 	public void start(Stage stage) throws Exception {
 
@@ -48,7 +49,7 @@ public class button extends Application {
 		stage.setTitle("new");			//setting upi the main
 		stage.setMaxWidth(win_width);
 		stage.setMaxHeight(win_height);
-		//stage.setScene();
+		stage.setScene(sc);
 		stage.show();
 
 	}
