@@ -10,6 +10,7 @@ package sample;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
 
@@ -23,8 +24,8 @@ import javafx.stage.Stage;
 public class button extends Application {
 
 	int win_width = 600, win_height = 550;		// main window (stage) parameters (window width and window height)
-	int btn_width = 50, btn_height = 25;	//button parameters
-	String btn_style = "-fx-border-color: #ff0000; -fx-border-width: 5px;";		//button styling
+	int btn_width = 150, btn_height = 25;	//button parameters
+	String btn_style = "-fx-border-color: #f0f0f0; -fx-border-width: 1px;";		//button styling
 
 	@Override
 	public void start(Stage stage) throws Exception {
@@ -37,9 +38,12 @@ public class button extends Application {
 	=================================================================================
 	*/
 
-		Button btn = new Button("Click me");	//creating a button
+		Button btn = new Button("Click me please!");	//creating a button
 		Button btn1 = new Button("Click me too!");
-		Scene sc = new Scene(btn, btn_width, btn_height);			//creating a scene
+
+		HBox hbox = new HBox(btn, btn1);
+
+		Scene sc = new Scene(hbox, btn_width, btn_height);			//creating a scene
 
 
 	/*
@@ -51,7 +55,7 @@ public class button extends Application {
 		btn.setMaxSize(btn_width, btn_height);
 		btn1.setStyle(btn_style);
 
-		stage.setTitle("new some window");			//setting upi the main
+		stage.setTitle("new some window");			//setting up the main stage
 		stage.setMaxWidth(win_width);
 		stage.setMaxHeight(win_height);
 
