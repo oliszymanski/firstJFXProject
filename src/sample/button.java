@@ -27,6 +27,8 @@ public class button extends Application {
 	int btn_width = 150, btn_height = 25;	//button parameters
 	String btn_style = "-fx-border-color: #f0f0f0; -fx-border-width: 1px;";		//button styling
 
+
+
 	@Override
 	public void start(Stage stage) throws Exception {
 
@@ -46,6 +48,7 @@ public class button extends Application {
 		Scene sc = new Scene(hbox, btn_width, btn_height);			//creating a scene
 
 
+
 	/*
 	=================================================================================
 		MAIN:
@@ -63,6 +66,7 @@ public class button extends Application {
 		stage.show();			//displaying the whole stage
 
 	}
+
 
 
 	/*
@@ -89,3 +93,10 @@ public class button extends Application {
 		launch();
 	}
 }
+
+
+/*
+=================================================================================
+	END OF FILE
+=================================================================================
+*/
