@@ -58,7 +58,7 @@ public class button extends Application {
 		btn.setMaxSize(btn_width, btn_height);
 		btn1.setStyle(btn_style);
 
-		stage.setTitle("new some window");			//setting up the main stage
+		stage.setTitle("some new window");			//setting up the main stage
 		stage.setMaxWidth(win_width);
 		stage.setMaxHeight(win_height);
 
