@@ -10,6 +10,7 @@ package sample;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
@@ -42,8 +43,9 @@ public class button extends Application {
 
 		Button btn = new Button("Click me please!");	//creating a button
 		Button btn1 = new Button("Click me too!");
+		Label lbl = new Label("Hello there");
 
-		HBox hbox = new HBox(btn, btn1);
+		HBox hbox = new HBox(lbl, btn, btn1);
 
 		Scene sc = new Scene(hbox, btn_width, btn_height);			//creating a scene
 
@@ -54,6 +56,9 @@ public class button extends Application {
 		MAIN:
 	=================================================================================
 	*/
+
+		btn.setOnAction(e -> lbl.setText("What is your name"));
+		btn1.setOnAction(e -> lbl.setText("Hello there"));
 
 		btn.setMaxSize(btn_width, btn_height);
 		btn1.setStyle(btn_style);
